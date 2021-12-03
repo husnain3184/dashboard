@@ -1,9 +1,10 @@
-import Dashboard from './Components/Dashboard/Dashboard'
+import React from "react";
+import Main from './Components/Layout/Main/Main'
 
 function App() {
   return (
    <>
-   <Dashboard/>
+    <Main/>
    </>
   );
 }
