@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 const NavbarCollapse = () =>{
 return(
     <>
@@ -20,36 +22,12 @@ return(
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/billing.html">
+                  <Link className="nav-link text-white " to="/billing">
                     <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
                       <i className="material-icons opacity-10">receipt_long</i>
                     </div>
                     <span className="nav-link-text ms-1">Billing</span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/virtual-reality.html">
-                    <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                      <i className="material-icons opacity-10">view_in_ar</i>
-                    </div>
-                    <span className="nav-link-text ms-1">Virtual Reality</span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/rtl.html">
-                    <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                      <i className="material-icons opacity-10">format_textdirection_r_to_l</i>
-                    </div>
-                    <span className="nav-link-text ms-1">RTL</span>
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/notifications.html">
-                    <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                      <i className="material-icons opacity-10">notifications</i>
-                    </div>
-                    <span className="nav-link-text ms-1">Notifications</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item mt-3">
                   <h6 className="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">Account pages</h6>
