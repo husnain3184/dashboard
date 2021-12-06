@@ -6,20 +6,20 @@ return(
         <div className="collapse navbar-collapse  w-auto  max-height-vh-100" id="sidenav-collapse-main">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link text-white active bg-gradient-primary" href="./pages/dashboard.html">
+                  <Link className="nav-link text-white active bg-gradient-primary" to="/dashboard">
                     <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
                       <i className="material-icons opacity-10">dashboard</i>
                     </div>
                     <span className="nav-link-text ms-1">Dashboard</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/tables.html">
+                  <Link className="nav-link text-white " to="/tables">
                     <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
                       <i className="material-icons opacity-10">table_view</i>
                     </div>
                     <span className="nav-link-text ms-1">Tables</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link text-white " to="/billing">
@@ -33,28 +33,28 @@ return(
                   <h6 className="ps-4 ms-2 text-uppercase text-xs text-white font-weight-bolder opacity-8">Account pages</h6>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/profile.html">
+                  <Link className="nav-link text-white " to="/profile">
                     <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
                       <i className="material-icons opacity-10">person</i>
                     </div>
                     <span className="nav-link-text ms-1">Profile</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/sign-in.html">
+                  <Link className="nav-link text-white " to="/signin">
                     <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
                       <i className="material-icons opacity-10">login</i>
                     </div>
                     <span className="nav-link-text ms-1">Sign In</span>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link text-white " href="./pages/sign-up.html">
+                  <Link className="nav-link text-white " to="/signup">
                     <div className="text-white text-center me-2 d-flex align-items-center justify-content-center">
                       <i className="material-icons opacity-10">assignment</i>
                     </div>
                     <span className="nav-link-text ms-1">Sign Up</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
         </div>
