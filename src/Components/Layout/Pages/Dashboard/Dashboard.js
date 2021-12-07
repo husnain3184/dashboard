@@ -1,5 +1,5 @@
 import EarningMain from './Dashcom/EarningMain'
-import WebVeiws from './Dashcom/Project'
+import WebVeiws from './Dashcom/Projects/Project'
 import Projects from './Dashcom/WebVeiws'
 
 
@@ -8,8 +8,8 @@ const Dashboard = () =>{
         <>
          <div className="container-fluid py-4">
                 <EarningMain/>
-                <WebVeiws/>
                 <Projects/>
+                <WebVeiws/>
             </div>
         </>
     )
